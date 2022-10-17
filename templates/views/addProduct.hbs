@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/js/jquery-3.6.1.js"></script>
+    <script src="/js/addProduct.js"></script>
+    <link rel="stylesheet" href="/css/addProduct.css">
+    <title>Add Product</title>
+</head>
+<body>
+    <div class="container">
+            <div class="item">
+              <h2 id="logo">Global</h2>
+              <p id="pLogo">Connect</p>
+        <ul>
+            <li>
+               <div class="aTag"> <a class="menuList" href="/homepage">Home</a> </div>
+            </li>
+            <li>
+                <div class="aTag"><a class="menuList" href="/admin">Admin</a></div>
+            </li>
+            <li>
+                <div class="aTag"><a class="menuList" href="/vendor">Vendor</a></div>
+            </li>
+            <li>
+                <div class="aTag"><a class="menuList" href="/user">User</a></div>
+            </li>
+            <li>
+                <div class="aTag"><a class="menuList" href="/product">Product</a></div>
+            </li>
+            <li>
+                <div class="aTag"><a class="menuList" href="/ad">Ad</a></div>
+            </li>
+        </ul>
+        </div>
+        <div class="body">
+            <header>
+                    <h2>Global Connect</h2>
+                   <button id="logBtn">logout</button>
+            </header>
+
+           <div>
+                 <label class="name">Name</label>
+                 <input type="text" placeholder="Name" id="name">
+                 <br>
+                 <label class="vendor">Vendor</label>
+                 <select id="select1">
+                    <option>Select</option>
+                    <option>vendor 1</option>
+                    <option>vendor 2</option>
+                    <option>vendor 3</option>
+                    <option>vendor 4</option>
+                    <option>vendor 5</option>
+                 </select>
+                 <label class="quan">Quantity</label>
+                 <input type="number" id="quanInput">
+                 <br>
+                 <label class="category">Category</label>
+                 <select id="select2">
+                    <option>Category</option>
+                 </select>
+                 <label class="category">Sub-Category</label>
+                 <select id="select3">
+                    <option>Sub Category</option>
+                 </select>
+                 <br>
+                 <label class="price">Price</label>
+                 <input type="number" id="priceInput">
+                 <label class="status">Status</label>
+                 <select id="statusOpt">
+                    <option>Out of Stock</option>
+                    <option>In Stock</option>
+                 </select>
+                 <br>
+                 <label id="des">Description</label>
+                 <br>
+                 <textarea name="Description" id="txt" cols="60" rows="10"></textarea>
+                 <br>
+                 <button class="cBtn" id="createBtn">Create</button>
+                 <button class="cBtn" id="resetBtn">Reset</button>
+           </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 80px 400px 80px 100px;
+    background-color: rgb(146, 146, 217);
+  }
+  
+  * {
+    box-sizing:border-box;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 80px;
+    width: 1400px;
+    background-image: url("/img/img18.jpg");
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    filter: blur(0px);
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 40%;
+    padding: 18px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    align-items: center;
+    display:inline-block;
+    border: none;
+    background: #e9dbdb;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .resetBtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 20px;
+    align-content: center;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+    margin-left: 200px;
+  }
+  
+  .resetBtn:hover {
+    opacity: 1;
+  }
+  
+  #psw-repeat{
+      margin-left: 38px;
+  }
+  
+  #psw{
+      margin-left: 72px;
+  }

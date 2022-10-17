@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/js/jquery-3.6.1.js"></script>
+    <script src="/js/admin.js"></script>
+    <link rel="stylesheet" href="/css/admin.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+            <div class="item">
+              <h2 id="logo">Global</h2>
+              <p id="pLogo">Connect</p>
+        <ul>
+            <li>
+               <div class="aTag"> <a class="menuList" href="/homepage">Home</a> </div>
+            </li>
+            <li>
+                <div class="aTag"><a class="menuList" href="/admin">Admin</a></div>
+            </li>
+            <li>
+                <div class="aTag"><a class="menuList" href="/vendor">Vendor</a></div>
+            </li>
+            <li>
+                <div class="aTag"><a class="menuList" href="/user">User</a></div>
+            </li>
+            <li>
+                <div class="aTag"><a class="menuList" href="/product">Product</a></div>
+            </li>
+            <li>
+                <div class="aTag"><a class="menuList" href="/ad">Ad</a></div>
+            </li>
+        </ul>
+        </div>
+        <div class="body">
+            <header>
+                    <h2>Global Connect</h2>
+                   <button id="logBtn">logout</button>
+            </header>
+            <br>
+            <input id="searchBtn" type="search" placeholder="Search Admin">
+            <button class="btn" id="addBtn">Add</button>
+            <button class="btn" id="editBtn">Edit</button>
+            <button class="btn" id="deleteBtn">Delete</button>
+            <br>
+            <table id="adminTable">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Name</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                       <td> <input type="checkbox"></td>
+                        <td>Arun</td>
+                        <td>ddwyd@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>vrun</td>
+                        <td>mddyd@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="navBtn" id="preBtn">Prev</button>
+            <button class="navBtn" id="nextBtn">Next</button>
+        </div>
+    </div>
+</body>
+</html>
