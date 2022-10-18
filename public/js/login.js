@@ -9,4 +9,17 @@ $(document).ready(function(){
           location.href = "/home";
        }
     })
+
+    $("#regBtn").click(function(){
+      location.href = "/reg";
+    })
+
+    $("#fpBtn").click(function(){
+      location.href = "/forgotpassword";
+    })
+
+    $("#formsub").submit(function(e){
+      e.preventDefault();
+  })
+
 });

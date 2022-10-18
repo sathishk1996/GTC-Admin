@@ -63,6 +63,11 @@ input[type=text]:focus, input[type=password]:focus {
      margin-right: 40%;
      margin-left: 45%;
      color: #bb0a0a;
+     cursor: pointer;
+}
+
+#aTag:hover{
+  text-decoration: underline;
 }
 
 #psw-repeat{
